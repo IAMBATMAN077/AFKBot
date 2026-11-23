@@ -1,0 +1,6 @@
+# This repository is a Node.js Minecraft AFK bot (Mineflayer), not a Hugo site.
+# The bot itself is a long-running process and cannot run on Netlify, so the
+# deploy only publishes a small static information page from `site/`.
+[build]
+  command = "echo 'No build step required'"
+  publish = "site"
