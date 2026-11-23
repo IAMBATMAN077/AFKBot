@@ -1,0 +1,6 @@
+# This repo is a Minecraft AFK bot (a long-running Node process), not a Hugo site.
+# Netlify only hosts a static info page; the bot itself must run on a host that
+# supports persistent processes (e.g. a VPS or `node bot.js` locally).
+[build]
+  command = "echo 'No build step required'"
+  publish = "site"
