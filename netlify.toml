@@ -1,0 +1,5 @@
+# This repository is a Node.js Minecraft AFK bot (mineflayer), not a Hugo site.
+# Override the auto-detected "hugo" build command and publish a static info page.
+[build]
+  command = "echo 'No site build required'"
+  publish = "site"
